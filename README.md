@@ -57,3 +57,18 @@ Social-Media-Account-Recommendation-System/
 ├── .gitignore                      # Ignore unnecessary files (e.g., data, environment)
 
 └── config.yaml                     # Configuration file for model parameters
+
+
+# Social Media Account Recommendation System
+
+A machine learning recommendation system that suggests social media accounts to follow based on user behavior, interests, and social connections.
+
+## Project Overview
+This project uses collaborative filtering, content-based filtering, and graph-based techniques to build personalized recommendations.
+
+## Installation
+```bash
+git clone https://github.com/yourusername/Social-Media-Account-Recommendation-System.git
+cd Social-Media-Account-Recommendation-System
+pip install -r requirements.txt
+
