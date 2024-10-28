@@ -15,24 +15,45 @@ Data visualization to display recommendation results
 
 ## Project Structure
 Social-Media-Account-Recommendation-System/
+
 ├── data/
+
 │   ├── raw/                        # Store raw datasets here (e.g., user interactions, profiles)
+
 │   ├── processed/                  # Store processed data here
+
 ├── notebooks/
+
 │   ├── data_exploration.ipynb      # Data exploration and visualization notebook
+
 │   ├── model_training.ipynb        # Model training notebook
+
 │   ├── evaluation.ipynb            # Model evaluation notebook
+
 ├── src/
+
 │   ├── __init__.py                 # Package initialization
+
 │   ├── data_processing.py          # Data processing and feature engineering
+
 │   ├── model.py                    # Recommendation model code
+
 │   ├── evaluation.py               # Model evaluation metrics
+
 │   ├── app.py                      # FastAPI/Flask app for deployment
+
 ├── tests/
+
 │   ├── test_data_processing.py     # Tests for data processing functions
+
 │   ├── test_model.py               # Tests for recommendation model
+
 │   ├── test_app.py                 # Tests for the API endpoints
+
 ├── requirements.txt                # List of dependencies
+
 ├── README.md                       # Project overview and documentation
+
 ├── .gitignore                      # Ignore unnecessary files (e.g., data, environment)
+
 └── config.yaml                     # Configuration file for model parameters
