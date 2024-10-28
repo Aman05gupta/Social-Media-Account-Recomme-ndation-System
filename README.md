@@ -66,9 +66,3 @@ A machine learning recommendation system that suggests social media accounts to 
 ## Project Overview
 This project uses collaborative filtering, content-based filtering, and graph-based techniques to build personalized recommendations.
 
-## Installation
-```bash
-git clone https://github.com/yourusername/Social-Media-Account-Recommendation-System.git
-cd Social-Media-Account-Recommendation-System
-pip install -r requirements.txt
-
